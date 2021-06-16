@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1991705496358442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4161586184363372}
+  - component: {fileID: 114604041689686498}
+  m_Layer: 0
+  m_Name: Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4161586184363372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991705496358442}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.424242, y: 0, z: -0.93860435}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114604041689686498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991705496358442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8afb4d870755034aa9077b7c8353cf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cannonball: {fileID: 1564221111375832, guid: 8805238828b83fa41b6f1648c48d6501, type: 3}
+  WreckingBall: {fileID: 1432722224870486, guid: 6cd1986f24dc1fc4dad164d020cb91a0,
+    type: 3}
+  Grenade: {fileID: 533015968629953745, guid: 436fe4eee246f8c40ad3715a7446e5c6, type: 3}
+  ImpactGrenade: {fileID: 533015968629953745, guid: fd0a2d9a0b506d44a96fe90ab0738e62,
+    type: 3}
+  ImpactBomb: {fileID: 1564221111375832, guid: 9386d30f0973f8641a34ecc94ea9321a, type: 3}
+  TNT: {fileID: 2706404677995590023, guid: c1028cd6e1dc821429fac8ea933886b2, type: 3}
+  MegaBomb: {fileID: 1908845369771419799, guid: 6fd69ff5a9a4db34d9afdef09f85486d,
+    type: 3}
+  Imploder: {fileID: 1908845369771419799, guid: c502fc2e175ce9241bd24f05ae385999,
+    type: 3}
+  Vaporizer: {fileID: 1630884336823678, guid: a9f8bb261fcfd0340bb81053aff99903, type: 3}
+  MainCamera: {fileID: 0}
+  ObjectsForPooling:
+  - {fileID: 1231855066895006, guid: 36b7c2e2b738ae947bf22017660d600e, type: 3}
+  - {fileID: 1231855066895006, guid: fefaded1dd3aeca419690a4e62465e85, type: 3}
+  - {fileID: 1231855066895006, guid: ef2eaafc85805084a86c58e201dd94e9, type: 3}
+  - {fileID: 1231855066895006, guid: 7a4d7d9bd50dabc4cb374237e379ff22, type: 3}
+  pauseColor: {r: 0, g: 0, b: 0, a: 0}
+  playColor: {r: 0, g: 0, b: 0, a: 0}
