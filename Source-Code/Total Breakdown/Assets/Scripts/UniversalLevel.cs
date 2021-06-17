@@ -32,10 +32,6 @@ public class UniversalLevel : MonoBehaviour{
 
 	void Start(){
 
-		// Slow motion debug
-		//Time.timeScale = 0.2f;
-		//Time.fixedDeltaTime = 0.02f * Time.timeScale; // Slow down fixed updates to match new time scale. .02 is recommended by Unity
-
 		ZeroGravityToggle = GameObject.Find( "ZeroGravityToggle" ).GetComponent<Toggle>();
 
 		// Set up level based on game mode
@@ -71,9 +67,6 @@ public class UniversalLevel : MonoBehaviour{
 		// Store structure object references
 		StructureObjects = GameObject.FindGameObjectsWithTag( "Structure" );
 		int objectCount  = StructureObjects.Length;
-
-		//Debug.Log( "Structure Blocks: " + objectCount );
-		//Debug.Log( "Max Score: " + ( objectCount * 5 ) );
 
 		// Store initial structure object positions and rotations
 		InitialPositions = new Vector3[objectCount];
@@ -155,8 +148,6 @@ public class UniversalLevel : MonoBehaviour{
 
 			if( ZeroGravityToggle.isOn ){
 
-				//gravityEnabled = false;
-
 				if( objectsAlreadyMoving ){ // If objects in the scene are already moving just disable gravity
 
 					Physics.gravity = zeroGravity;
@@ -174,8 +165,6 @@ public class UniversalLevel : MonoBehaviour{
 				}
 
 			}else{
-
-				//gravityEnabled = true;
 
 				if( objectsAlreadyMoving ){ // If objects in the scene are already moving just enable gravity
 

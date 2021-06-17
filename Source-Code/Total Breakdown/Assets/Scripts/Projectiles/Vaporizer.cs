@@ -46,13 +46,6 @@ public class Vaporizer : MonoBehaviour {
 
 	void explode( Collision collision ){
 
-		//GameObject explosion = Instantiate( ExplosionParticles, transform.position, transform.rotation ); // Initialize explosion effect.
-
-		//explosion.GetComponent<ParticleSystem>().Play(); // Play explosion effect after blasted objects are calculated.
-
-		//AudioSource WeaponAudio = gameObject.GetComponents<AudioSource>()[1];
-		//WeaponAudio.PlayOneShot( WeaponAudio.clip, 1.0f );
-
 		collision.gameObject.SetActive( false );
 
 		MeshRenderer[] MeshRenderers = gameObject.GetComponentsInChildren<MeshRenderer>();

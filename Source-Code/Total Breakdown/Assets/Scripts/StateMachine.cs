@@ -25,8 +25,6 @@ public class StateMachine : MonoBehaviour{
 			selectedGameMode = (int)gameMode.CASUAL; // Default to casual game mode during game launch
 			created = true;
 
-			//DontDestroyOnLoad( this.gameObject );
-
 		}
 
 	}
@@ -111,7 +109,6 @@ public class StateMachine : MonoBehaviour{
 			foreach( string weapon in Controller.weapons ){
 
 				Inventory[weapon] = 5;
-				//Debug.Log( weapon + " ammo: " + Inventory[weapon] );
 
 			}
 
