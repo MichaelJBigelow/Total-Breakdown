@@ -5,10 +5,10 @@ Total Breakdown is my first ever indie game project. It's basically a destructio
 *Please keep in mind that this is a physics simulation game which can be pretty demanding on the CPU/GPU. Some entry-level PCs may experience lag.
 
 Social Links:
-- [Twitch](https://www.twitch.tv/gameassetsgarden)
-- [YouTube](https://www.youtube.com/channel/UC6y2PWYv-VyYQnlqdLF5UNA)
-- [Instagram](https://www.instagram.com/gameassetsgarden)
-- [Twitter](https://www.twitter.com/gameassetgarden)
+- [YouTube](https://www.youtube.com/@BigelowInventions)
+- [Instagram](https://www.instagram.com/bigelowinventions/)
+- [X (Twitter)](https://x.com/BigelowInvents)
+- [Twitch](https://www.twitch.tv/bigelowinventions)
 
 Download Links:
 - Download the game for free at [itch.io](https://gameassetsgarden.itch.io/total-breakdown).
