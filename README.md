@@ -12,4 +12,3 @@ Social Links:
 
 Download Links:
 - Download the game for free at [itch.io](https://gameassetsgarden.itch.io/total-breakdown).
-- Most of the 3D models are available for free at [GameAssetsGarden.com](https://www.gameassetsgarden.com).
